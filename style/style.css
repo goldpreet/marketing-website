@@ -1,0 +1,114 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+
+{
+    background-color: white;
+    font-weight: 200;
+    font-family: 'Red Rose', cursive;
+}
+
+.head
+{
+    display: flex;
+    /* border: 1px red solid; */
+    padding: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+
+ .nav-list ul 
+{
+    display: flex;
+    padding:20px;
+    text-decoration: none;
+    justify-content: space-between;
+    list-style: none;
+    gap:20px;
+
+} 
+
+.hero-section
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+    /* space-between space evenly center */
+}
+
+.left-hero 
+{
+    /* border: 1px solid red; */
+    padding: 50px;
+    /* text-align: left; */
+    font-weight: 1000px;
+    color:  #3D305F;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.left-hero h1{
+    font-size: 60px;
+}
+
+
+#crush
+{
+    color:#5955b3;
+}
+#btn1
+{
+    padding: 12px 14px;
+    border-radius: 6px;
+    color:white;
+   background-color: #5955b3;
+   border: none;
+   font-size: 15px;
+
+   
+
+   
+
+}
+
+#btn2{
+
+    color:white;
+   background-color: #5955b3; 
+   padding: 14px 18px;
+   border-radius: 9px;
+   width: 180px;
+   margin-top: 50px;
+   border: none;
+   font-size: 16px;
+   
+
+}
+
+.right-hero
+{
+ padding: 8px;
+align-items: left;
+/* border: 1px solid black; */
+
+}
+
+.left-hero p{
+    color: grey;
+}
